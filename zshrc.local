@@ -15,17 +15,6 @@ setopt share_history
 setopt auto_pushd
 export dirstacksize=5
 
-# awesome cd movements from zshkit
-setopt AUTOCD
-setopt AUTOPUSHD PUSHDMINUS PUSHDSILENT PUSHDTOHOME
-setopt cdablevars
-
-# Enable extended globbing
-setopt EXTENDED_GLOB
-
-# If there are no matches for globs, leave them alone and execute the command
-setopt no_nomatch
-
 # Case insensitive completion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
