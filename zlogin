@@ -38,11 +38,18 @@ export CLICOLOR=1
 setopt promptsubst
 
 # prompt
+<<<<<<< HEAD
 export PROMPT='$(git_prompt_info)${SSH_CONNECTION+"%{$fg[yellow]%}%n@%m%{$reset_color%}:"}%{$fg_bold[blue]%}%2c%{$reset_color%} %{$fg_bold[cyan]%}❯%{$reset_color%} '
+=======
+export PROMPT='$(git_prompt_info)${SSH_CONNECTION+"%{$fg[yellow]%}%n@%m%{$reset_color%}:"}%{$fg_bold[blue]%}%2c%{$reset_color%} ⚡  '
+>>>>>>> Modify zsh prompt.
 export RPROMPT='$(ruby_version)'
 
 # load thoughtbot/dotfiles scripts
 export PATH="$HOME/.bin:$PATH"
+<<<<<<< HEAD
 
 # Local config
 [[ -f ~/.zlogin.local ]] && source ~/.zlogin.local
+=======
+>>>>>>> Modify zsh prompt.
