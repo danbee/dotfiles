@@ -1,0 +1,26 @@
+" Interface
+Bundle 'scrooloose/nerdtree'
+Bundle 'bling/vim-airline'
+
+" Language additions
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-haml'
+Bundle 'pangloss/vim-javascript'
+Bundle 'itspriddle/vim-jquery'
+Bundle 'leshill/vim-json'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'mattn/emmet-vim'
+Bundle 'juvenn/mustache.vim'
+Bundle 'othree/html5.vim'
+
+" Todo
+Bundle 'davidoc/taskpaper.vim'
+
+" Colors
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'vim-scripts/wombat256.vim'
+Bundle 'mrtazz/molokai.vim'
+Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Bundle 'shelling/railscasts.vim'
+Bundle 'nanotech/jellybeans.vim'
