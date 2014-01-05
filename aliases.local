@@ -1,0 +1,6 @@
+# git
+alias pullate="git pull"
+alias pushate="git push"
+
+# Bundler
+alias be="bundle exec"
