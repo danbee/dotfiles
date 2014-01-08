@@ -38,7 +38,7 @@ export CLICOLOR=1
 setopt promptsubst
 
 # prompt
-export PROMPT='$(git_prompt_info)${SSH_CONNECTION+"%{$fg[yellow]%}%n@%m%{$reset_color%}:"}%{$fg_bold[blue]%}%2c%{$reset_color%} ⚡  '
+export PROMPT='$(git_prompt_info)${SSH_CONNECTION+"%{$fg[yellow]%}%n@%m%{$reset_color%}:"}%{$fg_bold[blue]%}%2c%{$reset_color%} %{$fg_bold[cyan]%}❯%{$reset_color%} '
 export RPROMPT='$(ruby_version)'
 
 # load thoughtbot/dotfiles scripts
