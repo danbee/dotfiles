@@ -43,3 +43,6 @@ export RPROMPT='$(ruby_version)'
 
 # load thoughtbot/dotfiles scripts
 export PATH="$HOME/.bin:$PATH"
+
+# Local config
+[[ -f ~/.zlogin.local ]] && source ~/.zlogin.local
