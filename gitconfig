@@ -14,6 +14,7 @@
   pr = !hub pull-request
   st = status
   up = !git fetch origin && git rebase origin/master
+  lg = log --graph
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
