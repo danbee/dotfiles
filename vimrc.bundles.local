@@ -4,7 +4,6 @@ Bundle 'bling/vim-airline'
 
 " Language additions
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-haml'
 Bundle 'pangloss/vim-javascript'
 Bundle 'itspriddle/vim-jquery'
