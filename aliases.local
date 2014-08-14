@@ -2,5 +2,8 @@
 alias pullate="git pull"
 alias pushate="git push"
 
+alias fetchate="git fetch"
+alias rebasate="git rebase"
+
 # Bundler
 alias be="bundle exec"
