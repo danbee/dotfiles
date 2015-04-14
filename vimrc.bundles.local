@@ -25,3 +25,4 @@ Bundle 'mrtazz/molokai.vim'
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'shelling/railscasts.vim'
 Bundle 'nanotech/jellybeans.vim'
+Bundle 'morhetz/gruvbox'
