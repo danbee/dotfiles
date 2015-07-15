@@ -29,7 +29,7 @@ fi
 
 # Node stuff
 export PATH=/usr/local/share/npm/bin:$PATH
-export NODE_PATH=/usr/local/lib/node
+export NODE_PATH=/usr/local/lib/node_modules
 
 # Enable direnv
 if (( $+commands[direnv] )); then
