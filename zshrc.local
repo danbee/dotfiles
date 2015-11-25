@@ -45,4 +45,7 @@ if (( $+commands[direnv] )); then
   export DIRENV_RUBY=/usr/bin/ruby
 fi
 
+# Environment config
+[[ -f ~/.zshrc.env ]] && source ~/.zshrc.env
+
 eval "$(thefuck --alias)"

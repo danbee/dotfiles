@@ -1,3 +1,4 @@
 !bin
 vim/bundle/
 gitconfig.author
+zshrc.env
