@@ -16,6 +16,7 @@ Bundle 'othree/html5.vim'
 Bundle 'tpope/vim-rbenv'
 
 Bundle 'junegunn/goyo.vim'
+Bundle 'reedes/vim-pencil'
 
 " Todo
 Bundle 'davidoc/taskpaper.vim'
