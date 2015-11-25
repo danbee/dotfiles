@@ -44,3 +44,5 @@ if (( $+commands[direnv] )); then
   # Make direnv use the system ruby. https://github.com/zimbatm/direnv/issues/42
   export DIRENV_RUBY=/usr/bin/ruby
 fi
+
+eval "$(thefuck --alias)"
